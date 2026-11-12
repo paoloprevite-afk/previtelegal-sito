@@ -1,0 +1,3 @@
+(function(){var f=document.getElementById('pl');f.addEventListener('submit',function(e){e.preventDefault();var el=f.elements;function v(n){return el[n]&&el[n].value?el[n].value:''}
+var body='Nome e cognome: '+v('nome')+'\n'+'Dove ricontattarmi: '+v('recapito')+'\n'+'Chi mi scrive: '+v('controparte')+'\n'+'Il suo avvocato: '+(v('avvocato')||'non indicato')+'\n\n'+v('note')+'\n\nHo letto l\u2019informativa sulla privacy. Allego il documento.';
+window.location.href='mailto:paolo@previtelegal.it?subject='+encodeURIComponent('Prima lettura')+'&body='+encodeURIComponent(body);f.hidden=true;var ok=document.getElementById('ok');ok.hidden=false;ok.setAttribute('tabindex','-1');ok.focus()})})();
