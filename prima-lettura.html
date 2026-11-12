@@ -10,8 +10,8 @@
 <meta name="theme-color" content="#25272C">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="assets/fonts/schibsted-grotesk-800.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/fonts.css?v=mwe2h9fp">
-<link rel="stylesheet" href="assets/prima-lettura.css?v=mwe2h9fp">
+<link rel="stylesheet" href="assets/fonts.css?v=mwe3dvbj">
+<link rel="stylesheet" href="assets/prima-lettura.css?v=mwe3dvbj">
 </head>
 <body>
 <div class="site"><a class="skip" href="#contenuto">Vai al contenuto</a>
@@ -21,7 +21,7 @@
 
 <section class="sec"><h2 class="h2">Come funziona</h2>
 <div class="st"><span class="n">1</span><b>Ci dici chi sei e chi ti scrive.</b><p>Ti chiediamo il nome della controparte e, se c’è, quello del suo avvocato.</p></div>
-<div class="st"><span class="n">2</span><b>Ci mandi il documento.</b><p>Per posta elettronica. Una foto o un PDF, con tutte le pagine. Se puoi, anche la busta o il messaggio con cui è arrivato: serve a capire da quando decorrono i termini.</p></div>
+<div class="st"><span class="n">2</span><b>Ci mandi il documento.</b><p>Dal modulo qui sotto, in qualsiasi formato. Una foto o un PDF, con tutte le pagine. Se puoi, anche la busta o il messaggio con cui è arrivato: serve a capire da quando decorrono i termini.</p></div>
 <div class="st"><span class="n">3</span><b>Ti ricontattiamo.</b><p>Entro un giorno lavorativo, per spiegarti di che cosa si tratta, quali sono i tempi e quali strade hai davanti.</p></div>
 </section>
 
@@ -31,18 +31,19 @@
 </section>
 
 <section class="sec" id="invia"><h2 class="h2">Mandaci il documento</h2>
-<div class="ok" role="status" id="ok" hidden><b>Si è aperta la tua posta, con il messaggio già scritto.</b> Allega il documento e premi invia. Appena arriva verifichiamo che non ci siano conflitti e ti ricontattiamo entro un giorno lavorativo. Se la posta non si è aperta, scrivi a <a href="mailto:paolo@previtelegal.it?subject=Prima%20lettura">paolo@previtelegal.it</a>.</div>
+<div class="ok" role="status" id="ok" hidden><b>Ricevuto, grazie.</b> I documenti sono arrivati allo studio. Verifichiamo che non ci siano conflitti di interessi e ti ricontattiamo entro un giorno lavorativo.</div>
 <form class="card" id="pl">
+<label class="hp" aria-hidden="true">Lascia vuoto<input type="text" name="hp" tabindex="-1" autocomplete="off"></label>
 <label>Il tuo nome e cognome<input type="text" name="nome" autocomplete="name" required></label>
 <label>Dove ti ricontattiamo<span>Un telefono o un indirizzo email.</span><input type="text" name="recapito" required></label>
 <label>Chi ti scrive<span>Nome della persona, della società o dell’ente.</span><input type="text" name="controparte" required></label>
 <label>Il suo avvocato, se c’è<span>Lo trovi nell’intestazione o nella firma della lettera.</span><input type="text" name="avvocato"></label>
 <label>Se vuoi, due righe su cosa è successo<textarea rows="3" name="note"></textarea></label>
-<p class="quiet" style="margin:0 0 22px"><b style="color:#2A2C31">Il documento lo alleghi nel passaggio successivo.</b> Premendo Prepara il messaggio si apre la tua posta con una mail per paolo@previtelegal.it già compilata: aggiungi il PDF o le foto, tutte le pagine, e inviala.</p>
+<label>I documenti<span>Puoi allegarne quanti vuoi, in qualsiasi formato: PDF, foto, Word, mail. Fino a 30 MB ciascuno.</span><input type="file" name="files" multiple></label>
 <label class="ck"><input type="checkbox" required><span>Ho letto l’<a href="privacy.html">informativa sulla privacy</a>.</span></label>
 <label class="ck"><input type="checkbox" required><span>Ho capito che riceverò una prima lettura basata sul solo documento inviato, e che non è un incarico né un parere.</span></label>
 <p class="quiet" style="margin:6px 0 4px">Usiamo i dati e i documenti solo per verificare che non ci siano conflitti, per la prima lettura e per ricontattarti. Li vedono soltanto i due avvocati. Se non segue un incarico vengono cancellati.</p>
-<button type="submit" class="btn">Prepara il messaggio</button>
+<p class="status" role="status" aria-live="polite"></p><button type="submit" class="btn">Invia</button>
 </form>
 <div class="alt"><span class="quiet">Preferisci un altro canale?</span><a href="mailto:paolo@previtelegal.it?subject=Prima%20lettura">paolo@previtelegal.it</a><a href="https://wa.me/393271272644" target="_blank" rel="noopener">WhatsApp</a><a href="tel:+393271272644">+39 327 127 2644</a></div>
 </section>
@@ -63,6 +64,7 @@
 <footer class="foot">Avv. Paolo Previte, Ordine degli Avvocati di Crotone, P. IVA 03872180793, PEC paolo.previte@pec.it. Avv. Roberto Previte, patrocinante in Cassazione, Ordine degli Avvocati di Crotone, P. IVA 12350540154, PEC previte@legalmail.it. Due professionisti distinti, ciascuno responsabile dei propri incarichi. <a href="privacy.html" style="text-decoration:underline">Privacy e cookie</a> · <a href="privacy.html#accessibilita" style="text-decoration:underline">Accessibilità</a></footer>
 </main>
 </div>
-<script src="assets/prima-lettura.js?v=mwe2h9fp" defer></script>
+
+<script src="assets/moduli.js?v=mwe3dvbj" defer></script>
 </body>
 </html>

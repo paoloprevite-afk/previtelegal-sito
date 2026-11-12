@@ -204,6 +204,7 @@ button{font:inherit;color:inherit}
 .sf2 .ck2{display:grid;grid-template-columns:24px 1fr;gap:12px;align-items:start;font-weight:400;color:#C6C7CB}
 .sf2 .ck2 input{width:22px;height:22px;margin:0}
 .sf2 a{text-decoration:underline}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.fst{margin:0 0 14px;font-size:15px;color:#C6C7CB}.fst.err{color:#FF7A6E}.sf2 .btn[disabled]{opacity:.6;cursor:wait}.sent{padding:26px 26px 28px;border:2px solid #8A8D95;font-size:18px;line-height:1.55;color:#C6C7CB}.sent b{display:block;margin-bottom:6px;font-size:24px;color:#F1EEE8}
 .fn{margin:0 0 18px;font-size:14px;line-height:1.5;color:#A3A5AB}
 .sf2 .btn{align-self:flex-start}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}.wall{color:#5A5D66;animation:fadeonly 1.4s ease .1s both!important}.wall i{transform:none}}

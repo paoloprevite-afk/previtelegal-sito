@@ -33,6 +33,9 @@ input[type=file]{display:block;margin-top:10px;font:inherit;font-size:15px}
 .ck input{margin:0;width:24px;height:24px}
 .btn{display:inline-block;margin-top:14px;padding:16px 28px;border:0;border-radius:4px;background:#2A2C31;color:#fff;font-size:17px;font-weight:600;cursor:pointer;transition:background-color 200ms ease}
 .btn:hover{background:#B3372E}
+.btn[disabled]{opacity:.6;cursor:wait}
+.status{margin:8px 0 0;font-size:15px;color:#4A4D54}.status.err{color:#B3372E}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .ok{padding:22px 24px;border-left:3px solid #2A2C31;background:#FFFFFF}
 ul{margin:0;padding-left:20px}li{margin:0 0 10px;color:#4A4D54}
 .alt{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:20px;font-size:16px}
