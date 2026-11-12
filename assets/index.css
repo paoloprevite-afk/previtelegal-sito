@@ -191,5 +191,20 @@ button{font:inherit;color:inherit}
 .pnote{margin:0;font-size:13px;line-height:1.5;color:var(--mu)}
 .pnote a{text-decoration:underline}
 @media (max-width:1000px){.places{grid-template-columns:1fr}.place{border-right:0;border-bottom:1px solid var(--ln)}.place:last-child{border-bottom:0}.mapbox{height:260px}}
+.pp2{display:flex;flex-direction:column;gap:0;border:2px solid #8A8D95;align-self:start}
+.pc2{display:flex;flex-direction:column;gap:6px;padding:24px 24px 26px;font-size:16px;color:#C6C7CB}
+.pc2+.pc2{border-top:1px solid #575A62}
+.pc2 b{margin-bottom:4px;font-size:22px;font-weight:800;letter-spacing:-.02em;color:#F1EEE8}
+.pc2 a{align-self:flex-start;padding:3px 0;color:#F1EEE8;font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#575A62}
+.pc2 a:hover{text-decoration-color:#FF7A6E}
+.sf2{display:flex;flex-direction:column}
+.sf2 label{display:flex;flex-direction:column;gap:8px;margin-bottom:18px;font-size:15px;font-weight:600;color:#F1EEE8}
+.sf2 input[type=text],.sf2 select,.sf2 textarea{padding:13px 14px;background:transparent;border:1px solid #8A8D95;color:#F1EEE8;font:inherit;font-size:17px;font-weight:400;resize:vertical}
+.sf2 select{appearance:auto}.sf2 option{color:#17181B}
+.sf2 .ck2{display:grid;grid-template-columns:24px 1fr;gap:12px;align-items:start;font-weight:400;color:#C6C7CB}
+.sf2 .ck2 input{width:22px;height:22px;margin:0}
+.sf2 a{text-decoration:underline}
+.fn{margin:0 0 18px;font-size:14px;line-height:1.5;color:#A3A5AB}
+.sf2 .btn{align-self:flex-start}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}.wall{color:#5A5D66;animation:fadeonly 1.4s ease .1s both!important}.wall i{transform:none}}
 [hidden]{display:none!important}

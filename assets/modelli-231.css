@@ -87,5 +87,20 @@ button{font:inherit;color:inherit}
 @media (max-width:1100px){.hero{grid-template-columns:1fr}.pe{max-width:280px}.cta2{grid-template-columns:1fr}}
 @media (max-width:900px){.ex{grid-template-columns:1fr}.ex>div,.ex>div+div{padding:24px 0 26px;border-right:0;border-bottom:1px solid var(--ln)}.ex>div:last-child{border-bottom:0}.h2b{margin-top:64px}.top{padding:18px 20px}.nav{gap:0}.nav a:not(.cta):not(.ur){display:none}.nav a{padding:11px 12px}.nav .cta{padding:11px 14px;margin-left:6px}.hero{padding:5vh 20px 40px;gap:32px}.lead{font-size:19px}.acts{grid-template-columns:1fr 1fr}.act:nth-child(2){border-right:0}.act{border-bottom:1px solid var(--ln)}.in{padding:72px 20px}.cta2{padding:28px 22px}.ni{grid-template-columns:1fr}.cell{border-right:0;border-bottom:1px solid var(--ln)}.ct{gap:36px}.ct>*{flex-basis:100%}}
 @media (max-width:560px){.acts{grid-template-columns:1fr}.act{border-right:0;min-height:0}.logo{font-size:26px}.btn{padding:15px 20px}}
+.pp2{display:flex;flex-direction:column;gap:0;border:2px solid #8A8D95;align-self:start}
+.pc2{display:flex;flex-direction:column;gap:6px;padding:24px 24px 26px;font-size:16px;color:#C6C7CB}
+.pc2+.pc2{border-top:1px solid #575A62}
+.pc2 b{margin-bottom:4px;font-size:22px;font-weight:800;letter-spacing:-.02em;color:#F1EEE8}
+.pc2 a{align-self:flex-start;padding:3px 0;color:#F1EEE8;font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#575A62}
+.pc2 a:hover{text-decoration-color:#FF7A6E}
+.sf2{display:flex;flex-direction:column}
+.sf2 label{display:flex;flex-direction:column;gap:8px;margin-bottom:18px;font-size:15px;font-weight:600;color:#F1EEE8}
+.sf2 input[type=text],.sf2 select,.sf2 textarea{padding:13px 14px;background:transparent;border:1px solid #8A8D95;color:#F1EEE8;font:inherit;font-size:17px;font-weight:400;resize:vertical}
+.sf2 select{appearance:auto}.sf2 option{color:#17181B}
+.sf2 .ck2{display:grid;grid-template-columns:24px 1fr;gap:12px;align-items:start;font-weight:400;color:#C6C7CB}
+.sf2 .ck2 input{width:22px;height:22px;margin:0}
+.sf2 a{text-decoration:underline}
+.fn{margin:0 0 18px;font-size:14px;line-height:1.5;color:#A3A5AB}
+.sf2 .btn{align-self:flex-start}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 .ni em,.cell .sm,.ex h3{color:#FF7A6E}
