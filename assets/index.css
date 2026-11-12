@@ -164,6 +164,7 @@ button{font:inherit;color:inherit}
 .sfb:hover{background:#B3372E}
 @media (max-width:900px){.sf{grid-template-columns:1fr}}
 @media (max-width:900px){.wall{animation:boomM 2.1s cubic-bezier(.65,0,.35,1) .15s both,towall 1.2s ease 2.3s forwards}.wall i{animation-delay:.9s}.duo{animation-delay:2.2s}.top{animation-delay:2.5s}.tag,.names{animation-delay:2.7s}.tiles{animation-delay:2.6s}}
+@media (max-width:900px){.duo{box-sizing:border-box;width:100%;overflow:hidden;border-bottom:2px solid var(--tx);background:linear-gradient(180deg,transparent 55%,rgba(16,18,22,.55))}}
 @media (max-width:560px){.pe{flex-direction:column}.logo{font-size:26px}.duo img{height:38vh}.duo .rob{height:44vh;margin-right:-6vh}.nx>div{padding:20px 18px}}
 
 .where .in{padding-top:110px;padding-bottom:110px}
