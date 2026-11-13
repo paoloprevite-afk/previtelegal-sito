@@ -42,6 +42,18 @@
     if (W.matchMedia && W.matchMedia('(prefers-reduced-motion:reduce)').matches) return;
     root = root || D;
 
+    /* Tastiera: se il focus arriva su qualcosa non ancora animato, lo mostra subito */
+    if (!W.__mvFocus) {
+      W.__mvFocus = true;
+      D.addEventListener('focusin', function (ev) {
+        for (var e = ev.target; e && e !== D.body; e = e.parentElement) {
+          var f = jobs.get(e);
+          if (f) { jobs.delete(e); if (io) io.unobserve(e); f(e); }
+          if (e.style && e.style.opacity === '0') gsap.set(e, { opacity: 1, clearProps: 'transform' });
+        }
+      }, true);
+    }
+
     if (!D.getElementById('mv-css')) {
       var st = D.createElement('style');
       st.id = 'mv-css';
